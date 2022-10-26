@@ -17,27 +17,18 @@
     background-color: rgb(233, 79, 79);
     background-color: rgb(237, 237, 101);
 }
-.dec{
-    border: 2px solid red;
-}
-.res{
-    border: 2px solid yellow;
-}
-.inc{
-    border: 2px solid blue;
-}
-.ad{
-    border: 2px solid black;
-    padding: 20px;
-}
+
 marquee{
     color: royalblue;
 }
 button{
-    background-color: black;
-    color: aliceblue;
-    width: 5rem;
+    background-color:rgb(198, 182, 213);
+    color: black;
+    width: 10rem;
     border-radius: 10px;
+    height: 2rem;
+    font-size: 10px;
+    border: none;
 
-    
+
 }
