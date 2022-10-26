@@ -36,5 +36,8 @@ marquee{
 button{
     background-color: black;
     color: aliceblue;
-    width: 10rem;
+    width: 5rem;
+    border-radius: 10px;
+
+    
 }
