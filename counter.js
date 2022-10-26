@@ -25,19 +25,24 @@ let dec = document.querySelector('.dec')
 
 function DECREASE (){
     heading.innerText--
-
+    let body = document.body
+    body.style.backgroundColor = 'rgb(233, 79, 79)'
 }
 dec.addEventListener('click',DECREASE)
 
 function INCREASE (){
     heading.innerText++
-
+    let body = document.body
+    body.style.backgroundColor = 'rgb(139, 254, 139'
+    
 }
 inc.addEventListener('click',INCREASE)
 
 function RESET (){
     heading.innerText= 0 
-
+    let body = document.body
+    body.style.backgroundColor = 'rgb(237, 237, 101)'
+    
 }
 res.addEventListener('click',RESET)
 
