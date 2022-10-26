@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: grid;
+    place-items: center;
+    place-content: center;
+    grid-gap: 15px;
+}
+.btn-group{
+    display: flex;
+    gap: 10px;
+}
